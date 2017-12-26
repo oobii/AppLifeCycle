@@ -16,3 +16,8 @@ The AppDelegate class conforms to the UIApplicationDelegate protocol, which defi
 #### Open the app switcher again, then return to the app.
  - Will resign active.
  - Did become active.
+
+
+For apps that are allowed to execute code in the background—such as apps that provide GPS directions, play music, or handle audio calls—you'll want to call the **applicationDidEnterBackground** function. For apps that don't normally run in the background, you'll use the applicationWillTerminate function.
+
+
